@@ -1,0 +1,14 @@
+{
+  "name": "unit-tests-32-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Grychtol <grychtol.daniel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^6.2.1"
+  },
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:w": "mocha -w index.test.js"
+  }
+}
